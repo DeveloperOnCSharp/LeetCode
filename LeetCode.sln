@@ -1,8 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{1D50D937-0CC4-49BE-8F5D-9029C557A618}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Median of Two Sorted Arrays", "Median of Two Sorted Arrays\Median of Two Sorted Arrays.csproj", "{EA22B74F-F6D1-45AC-8279-9B58481D9F71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEST_EXPLORER", "TEST\TEST_EXPLORER.csproj", "{A573BB59-CB77-4860-995F-726C5031B9D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +23,12 @@ Global
 		{EA22B74F-F6D1-45AC-8279-9B58481D9F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA22B74F-F6D1-45AC-8279-9B58481D9F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA22B74F-F6D1-45AC-8279-9B58481D9F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A573BB59-CB77-4860-995F-726C5031B9D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A573BB59-CB77-4860-995F-726C5031B9D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A573BB59-CB77-4860-995F-726C5031B9D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A573BB59-CB77-4860-995F-726C5031B9D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
