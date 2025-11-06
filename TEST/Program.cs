@@ -6,8 +6,7 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        int nums = Factorial(5);
-        Console.WriteLine(nums);
+        Console.WriteLine("Hello World!");
     }
     static int Factorial(int x)
     {
