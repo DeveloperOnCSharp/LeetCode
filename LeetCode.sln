@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36623.8 d17.14
+VisualStudioVersion = 17.14.36623.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{1D50D937-0CC4-49BE-8F5D-9029C557A618}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Median of Two Sorted Arrays", "Median of Two Sorted Arrays\Median of Two Sorted Arrays.csproj", "{EA22B74F-F6D1-45AC-8279-9B58481D9F71}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEST_EXPLORER", "TEST\TEST_EXPLORER.csproj", "{A573BB59-CB77-4860-995F-726C5031B9D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Container With Most Water", "Container With Most Water\Container With Most Water.csproj", "{9B53A809-FDBE-4FDF-87EC-1586C81D4C9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,8 +31,18 @@ Global
 		{A573BB59-CB77-4860-995F-726C5031B9D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A573BB59-CB77-4860-995F-726C5031B9D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A573BB59-CB77-4860-995F-726C5031B9D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B53A809-FDBE-4FDF-87EC-1586C81D4C9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B53A809-FDBE-4FDF-87EC-1586C81D4C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B53A809-FDBE-4FDF-87EC-1586C81D4C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B53A809-FDBE-4FDF-87EC-1586C81D4C9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D50D937-0CC4-49BE-8F5D-9029C557A618} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{EA22B74F-F6D1-45AC-8279-9B58481D9F71} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{A573BB59-CB77-4860-995F-726C5031B9D2} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{9B53A809-FDBE-4FDF-87EC-1586C81D4C9A} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
 	EndGlobalSection
 EndGlobal
